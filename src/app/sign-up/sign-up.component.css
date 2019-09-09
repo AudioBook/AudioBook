@@ -1,0 +1,21 @@
+div.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 30%;
+    height:200px;
+    text-align: center;
+    margin:20px;
+    margin-left: 380px;
+}
+.base-form label {
+    width: 150px;
+    font-weight: bold;
+    display: inline-block;
+    color: black;
+}
+.base-form input {
+    width: 150px;
+    display: inline-block;
+}
+.base-form .bloc{
+    margin: 10px;
+}
