@@ -12,6 +12,7 @@ import { HowToStartComponent } from './how-to-start/how-to-start.component';
 import { ListeneingIsEasyComponent } from './listeneing-is-easy/listeneing-is-easy.component';
 import { FooterComponent } from './footer/footer.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SignUpComponent } from './sign-up/sign-up.component';
     HowToStartComponent,
     ListeneingIsEasyComponent,
     FooterComponent,
-    SignUpComponent
+    SignUpComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
