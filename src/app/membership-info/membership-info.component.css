@@ -1,0 +1,31 @@
+.bgimg {
+    background-image: url("../../assets/images/bgimg.jfif");
+    min-height: 530px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #s1 {
+      color: white;
+      float: right;
+      margin-right:150px;
+  }
+  #s1 h2 {
+      font-weight:600;
+      margin-top:50px;
+  }
+  ul li p {
+      color:wheat;
+  }
+  #b2 button {
+    background-color: orange;
+    color:black;
+    width:300px;
+    height:40px;
+    border-radius: 5px 5px;
+    border:0;
+    margin-top:20px;
+    margin-left: 80px;
+}
+#b2 h6 {
+    margin-left: 90px;
+}
