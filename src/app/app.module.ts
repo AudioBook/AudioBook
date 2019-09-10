@@ -16,6 +16,8 @@ import { BookComponent } from './book/book.component';
 import { BookImageComponent } from './book-image/book-image.component';
 import { BookDetailsComponent } from './book-details/book-details.component';
 import { AudioService } from './audio.service';
+import { PolicyFooterComponent } from './policy-footer/policy-footer.component';
+import { HomeFooterComponent } from './home-footer/home-footer.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { AudioService } from './audio.service';
     SignUpComponent,
     BookComponent,
     BookImageComponent,
-    BookDetailsComponent
+    BookDetailsComponent,
+    PolicyFooterComponent,
+    HomeFooterComponent
   ],
   imports: [
     BrowserModule,
