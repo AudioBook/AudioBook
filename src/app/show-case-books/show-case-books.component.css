@@ -1,5 +1,8 @@
-
-.heading
+.showCaseBooksContainer
+{
+    margin-left: 240px;
+}
+.heading1
 {
     text-align:center;
     display:inline-block;

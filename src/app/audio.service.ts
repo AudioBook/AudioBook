@@ -80,6 +80,38 @@ export class AudioService {
       imageUrl:'https://m.media-amazon.com/images/I/61Ya+T60dGL._SL150_.jpg'
     }
   ]
+  private greatFirstListens:Book[]=[
+    {
+      name:'Midnights with The Mystic',
+      author:'Cheryl Simone',
+      rating:5,
+      imageUrl:'https://m.media-amazon.com/images/I/51WtRZ7AtpL._SL150_.jpg',
+    },
+    {
+      name:'Matilda',
+      author:'Kate Winslet',
+      rating:5,
+      imageUrl:'https://m.media-amazon.com/images/I/61hMGh6vijL._SL150_.jpg',
+    },
+    {
+      name:'The Handmaid\'s Tale',
+      author:'Joanna David',
+      rating:4,
+      imageUrl:'https://m.media-amazon.com/images/I/412xAuoFi+L._SL150_.jpg',
+    },
+    {
+      name:'The Fault In Our Stars',
+      author:'Kate Rudd',
+      rating:4.5,
+      imageUrl:'https://m.media-amazon.com/images/I/61BMJMpHtxL._SL150_.jpg',
+    },
+    {
+      name:'How To Be a Bawse',
+      author:'Lily Singh',
+      rating:4.5,
+      imageUrl:'https://m.media-amazon.com/images/I/51Z4y2i1xHL._SL150_.jpg',
+    }
+  ]
   constructor() { }
   public getInternationalBooks():Book[]
   {
@@ -88,5 +120,9 @@ export class AudioService {
   public getIndianBooks():Book[]
   {
     return this.indianBestSellers;
+  }
+  public getGreatFirstListens():Book[]
+  {
+    return this.greatFirstListens;
   }
 }

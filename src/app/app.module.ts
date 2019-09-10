@@ -18,6 +18,7 @@ import { BookDetailsComponent } from './book-details/book-details.component';
 import { AudioService } from './audio.service';
 import { PolicyFooterComponent } from './policy-footer/policy-footer.component';
 import { HomeFooterComponent } from './home-footer/home-footer.component';
+import { FreeTrailButtonComponent } from './free-trail-button/free-trail-button.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { HomeFooterComponent } from './home-footer/home-footer.component';
     BookImageComponent,
     BookDetailsComponent,
     PolicyFooterComponent,
-    HomeFooterComponent
+    HomeFooterComponent,
+    FreeTrailButtonComponent
   ],
   imports: [
     BrowserModule,

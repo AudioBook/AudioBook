@@ -24,5 +24,9 @@ export class ShowCaseBooksComponent implements OnInit {
   {
     this.books=this._service.getInternationalBooks()
   }
+  public greatFirstListens():void
+  {
+    this.books=this._service.getGreatFirstListens();
+  }
 
 }
