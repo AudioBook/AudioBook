@@ -12,6 +12,10 @@ import { HowToStartComponent } from './how-to-start/how-to-start.component';
 import { ListeneingIsEasyComponent } from './listeneing-is-easy/listeneing-is-easy.component';
 import { FooterComponent } from './footer/footer.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
+import { BookComponent } from './book/book.component';
+import { BookImageComponent } from './book-image/book-image.component';
+import { BookDetailsComponent } from './book-details/book-details.component';
+import { AudioService } from './audio.service';
 
 @NgModule({
   declarations: [
@@ -24,13 +28,16 @@ import { SignUpComponent } from './sign-up/sign-up.component';
     HowToStartComponent,
     ListeneingIsEasyComponent,
     FooterComponent,
-    SignUpComponent
+    SignUpComponent,
+    BookComponent,
+    BookImageComponent,
+    BookDetailsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [AudioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

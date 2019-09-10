@@ -1,0 +1,72 @@
+.flex-container
+  {
+      display: flex;
+      justify-content:center;
+      flex-direction: column;
+  }
+  .flex-container .stepWithImageAndText
+  {
+      display: flex;
+      justify-content: center;
+      flex-direction:column;
+      padding:10px;
+  }
+  .flex-container .startTrailSection
+  {
+      display: flex;
+      justify-content: center;
+      flex-direction:column;
+      padding:10px;
+      align-self: center;
+  }
+  /*.howToStart
+  {
+      position: relative;
+      display: :flex;
+      align-content: center;
+  }*/
+  .startingSteps
+  {
+      display: flex;
+      align-self:center;
+  }
+  .heading{
+      display:block;
+      text-align: center;
+  }
+  .stepWithImageAndText
+  {
+      position: relative;
+  }
+  .stepItem{
+      display:inline-block;
+  }
+  .stepImage{
+      position: relative;
+      text-align: center;
+  }
+  .button
+  {
+      background-color:#f2b233;
+      width:5cm;
+      height:1cm;
+      text-align: center;
+      padding:4px;
+      border:0mm;
+      border-radius: 4px;
+      align-content: center;
+  }
+  .buttonDescription
+  {
+      font-size: 3mm;
+  }
+  .usecaseImage
+  {
+    position: relative;
+    /*left: 100%;
+    margin-left: -200%;*/
+
+    width:100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
