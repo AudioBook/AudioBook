@@ -3,25 +3,24 @@ footer {
     background-color: whitesmoke;
     width:100%;
     }
-
-.row
-{
+ .row
+ {
     margin: 0px auto;
     padding-bottom: 10px;
-    width: 65%;   
-}
-.column {
+    width: 65%;
+ }
+ .column {
     float: left;
     width:25%;
     padding-left:50px;
-    margin-top:20px;
+   margin-top:20px;
 }
 a {
-    color: black;
+   color: black;
 }
 .help-link
 {
-    font-size: 13.6px;
-    display: block;
-    margin: 10px;
+   font-size: 13.6px;
+   display: block;
+   margin: 10px;
 }
