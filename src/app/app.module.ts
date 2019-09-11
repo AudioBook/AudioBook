@@ -21,7 +21,6 @@ import { SignUpComponent } from './authentication/sign-up/sign-up.component';
     AllModule
   ],
   providers: [AudioService],
-  bootstrap: [AppComponent],
-  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
