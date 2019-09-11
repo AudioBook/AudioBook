@@ -19,12 +19,13 @@
       padding:10px;
       align-self: center;
   }
-  /*.howToStart
+  .howToStart
   {
-      position: relative;
-      display: :flex;
-      align-content: center;
-  }*/
+      /*position: relative;
+      display: flex;
+      align-content: center;*/
+      
+  }
   .startingSteps
   {
       display: flex;

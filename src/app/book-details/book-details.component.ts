@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-
+import { StarRatingComponent } from 'ng-starrating';
 @Component({
   selector: 'app-book-details',
   templateUrl: './book-details.component.html',
@@ -11,5 +11,4 @@ export class BookDetailsComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }
