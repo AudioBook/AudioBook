@@ -3,7 +3,9 @@
     font-weight: 600;
     }
     div.container {
-        margin-left: 100px;
+        /* container is a global css class/ from a library
+        dont play with it 
+        margin-left: 100px; */
     }
     div.c1 {
         padding-left:35px;

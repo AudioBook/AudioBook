@@ -1,5 +1,5 @@
 <footer>
-    <div class='policy-footer-divider'>
+    <!-- <div class='policy-footer-divider'>
     </div>
     <div class='policy-footer-section'>
         <div class='policy-footer-links'>
@@ -15,5 +15,11 @@
         <div class='license-text'>
                 © 1997-2019, Audible, Inc. or its affiliates
         </div>
-    </div>
- </footer>
+    </div> -->
+
+    <ul *ngIf="footerContent" class="f-list">
+        <li *ngFor="let footerItem of footerContent">
+            <a>{{footerItem.text}}</a>
+        </li>
+    </ul>
+</footer>
