@@ -1,0 +1,22 @@
+.showCaseBooksContainer
+{
+    margin-left: 240px;
+}
+.heading1
+{
+    text-align:center;
+    display:inline-block;
+}
+.container .sellers-tab{
+    display:inline-block;
+    text-align: center;
+}
+.bookItem
+{
+    display: inline;
+    float:left;
+    margin:5px;
+}
+.list-inline li{
+    display:inline;
+}

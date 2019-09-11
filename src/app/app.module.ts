@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { RatingModule } from 'ng-starrating';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,7 +13,17 @@ import { HowToStartComponent } from './how-to-start/how-to-start.component';
 import { ListeneingIsEasyComponent } from './listeneing-is-easy/listeneing-is-easy.component';
 import { FooterComponent } from './footer/footer.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
+<<<<<<< HEAD
 import { ButtonComponent } from './button/button.component';
+=======
+import { BookComponent } from './book/book.component';
+import { BookImageComponent } from './book-image/book-image.component';
+import { BookDetailsComponent } from './book-details/book-details.component';
+import { AudioService } from './audio.service';
+import { PolicyFooterComponent } from './policy-footer/policy-footer.component';
+import { HomeFooterComponent } from './home-footer/home-footer.component';
+import { FreeTrailButtonComponent } from './free-trail-button/free-trail-button.component';
+>>>>>>> origin/feature1
 
 @NgModule({
   declarations: [
@@ -26,13 +37,24 @@ import { ButtonComponent } from './button/button.component';
     ListeneingIsEasyComponent,
     FooterComponent,
     SignUpComponent,
+<<<<<<< HEAD
     ButtonComponent
+=======
+    BookComponent,
+    BookImageComponent,
+    BookDetailsComponent,
+    PolicyFooterComponent,
+    HomeFooterComponent,
+    FreeTrailButtonComponent
+>>>>>>> origin/feature1
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RatingModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [AudioService],
+  bootstrap: [AppComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class AppModule { }
