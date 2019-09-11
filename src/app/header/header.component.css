@@ -1,0 +1,81 @@
+.bgimg {
+  background-image: url("../../assets/images/audible_background.jfif");
+  min-height: 570px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav {
+  overflow: hidden;
+}
+.nav a {
+  float: right;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+.nav a:active {
+  color: bisque;
+}
+.search {
+  position: relative;
+  text-align: right;
+  margin-right:40px;
+  height:30px;
+}
+#s1 {
+  height:30px;
+  padding:10px;
+  padding-top:0;
+  padding-bottom: 0;
+  border: 0;
+}
+#p1 img,#p1 button {
+  width:30px;
+  height:30px;
+  position: absolute;
+  top:0px;
+  left:1200px;
+}
+#s3 h1, #s3 h2 {
+    padding:0;
+    margin:0;
+    font-weight:800;
+    font-display: none;
+    margin-left: 150px;
+}
+  h1 i {
+      font-size: 5.0rem;
+      padding-left:80px;
+  }
+  h2 i {
+      font-size: 3.6rem;
+      padding-left:50px;
+  }
+  #s4 h4 {
+      color: grey;
+      font-size: 2rem;
+      margin-left:110px;
+      margin-top:200px;
+  }
+  #s5 button {
+      background-color: orange;
+      color: white;
+      margin-left: 200px;
+      margin-top: 70px;
+      width:250px;
+      height:30px;
+      border-radius: 20px 20px;
+      border:0;
+  }
+  #s6 h4 {
+    color: grey;
+    font-size: 1.3rem;
+    margin-left:150px;
+    margin-top:20px;
+    padding-bottom: 20px;
+}

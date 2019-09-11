@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AudioService } from '../audio.service';
 
 @Component({
   selector: 'app-show-case-books',
@@ -7,9 +8,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShowCaseBooksComponent implements OnInit {
 
-  constructor() { }
+  public books:Book[]
+  constructor(public _service:AudioService) { }
+  
 
   ngOnInit() {
+    console.log(this._service.getIndianBooks());
+    this.books=this._service.getIndianBooks();
+  }
+  public indianBooks():void
+  {
+    this.books=this._service.getIndianBooks()
+  }
+  public internationalBooks():void
+  {
+    this.books=this._service.getInternationalBooks()
+  }
+  public greatFirstListens():void
+  {
+    this.books=this._service.getGreatFirstListens();
   }
 
 }

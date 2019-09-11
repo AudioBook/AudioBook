@@ -1,0 +1,17 @@
+#b2 button {
+    background-color: orange;
+    color:black;
+    width:300px;
+    height:40px;
+    border-radius: 5px 5px;
+    border:0;
+    margin-top:20px;
+    
+}
+h6 {
+    margin-top: 7px;
+    font-size: small;
+    color: grey;
+    font-weight: 200;
+}
+      

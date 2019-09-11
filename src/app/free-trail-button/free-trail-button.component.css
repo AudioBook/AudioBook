@@ -1,0 +1,23 @@
+.free-trail-btn-div
+{
+    display: inline;
+    width: 300px;
+}
+button{
+    background-color: #f7991c;
+    width: 300px;
+    border: 0px;
+    height: 34px;
+    border-radius: 4px;
+}
+button:hover
+{
+    background-color: #fca93a;
+}
+.btn-description
+{
+    font-size: 11px;
+    color: #7d7d7d;
+    text-align: center;
+    width: inherit;
+}

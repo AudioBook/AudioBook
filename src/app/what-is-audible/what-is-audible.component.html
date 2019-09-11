@@ -1,1 +1,19 @@
-<p>what-is-audible works!</p>
+<div class="sec2">
+    <div id="b1">
+    <h2 align="center">What is Audible ?</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="column" *ngFor="let ele of elements">
+          <div class="c1">
+            <img [src]='ele.imgurl'>
+          </div>
+          <h4>{{ele.heading}}</h4>
+          <p>
+            {{ele.desc}}
+          </p>
+        </div>
+      </div>
+    </div>
+    <app-button></app-button>
+    </div>

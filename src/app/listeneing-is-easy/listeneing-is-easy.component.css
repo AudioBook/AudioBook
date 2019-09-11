@@ -1,0 +1,25 @@
+.column {
+    float: left;
+    width:50%;
+    margin-top:40px;
+}
+#b1 {
+    margin-left: 100px;
+}
+#b1 h1 {
+    margin-top:70px;
+    font-size: 30px;
+    font-weight:700;
+}
+#b2 button {
+    background-color: orange;
+    color:black;
+    width:350px;
+    height:40px;
+    border-radius: 5px 5px;
+    border:0;
+    margin-top:20px;   
+}
+img {
+    margin-top: 70px;
+}

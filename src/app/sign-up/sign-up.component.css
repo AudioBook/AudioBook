@@ -1,0 +1,74 @@
+.sign-in-whole
+{
+    text-align: center;
+    
+}
+.sign-in-container
+{
+    border-style:solid;
+    border-width: 1px;
+    border-color:#c7c2b7;
+    width:400px;
+    height:500px;
+    margin:20px auto;
+}
+.input-label
+{
+    
+}
+.input-container
+{
+    margin: 20px;
+    padding: 0px 30px;
+}
+.input-box
+{
+    display:block;
+    text-align: center;
+    margin:0 auto;
+    width: 300px;
+    height: 40px;
+}
+.input-label
+{
+    float:left;
+}
+.password-heading-row .forgot-password
+{
+    float:right;
+}
+.sign-in-btn
+{
+    background: #f7991c;
+    border: 0px;
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+}
+.create-account-btn
+{
+    background: #dcdfe3;
+    border: 0px;
+    width: 300px;
+    height: 40px;
+    margin: 10px; 
+}
+.divider
+{
+    width: 80%;
+    height: 20px;
+    border-bottom: 1px solid #c7c2b7;
+    text-align: center;
+    position: relative;
+    margin: 40px auto;
+}
+.divider-text
+{
+    font-size: 10.5px;
+    background-color: white;
+    color: #b5b3ae;
+    top: 13px;
+    left: 114.7px;
+    position: absolute;
+    padding: 0px 8px;
+}

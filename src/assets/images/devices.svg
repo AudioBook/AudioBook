@@ -1,0 +1,69 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #f59831;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        fill: #333;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>Artboard 1</title>
+  <g>
+    <g>
+      <g id="_Group_" data-name="&lt;Group&gt;">
+        <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" class="cls-1" d="M54.57,36.22h29v59h-29Z"/>
+        <line id="_Path_" data-name="&lt;Path&gt;" class="cls-2" x1="66.57" y1="32.28" x2="71.54" y2="32.28"/>
+        <path id="_Path_2" data-name="&lt;Path&gt;" class="cls-1" d="M67.15,98.86a1.91,1.91,0,1,1,1.91,1.92A1.91,1.91,0,0,1,67.15,98.86Z"/>
+        <circle id="_Path_3" data-name="&lt;Path&gt;" class="cls-2" cx="63.65" cy="32.26" r="0.31"/>
+        <path id="_Path_4" data-name="&lt;Path&gt;" class="cls-2" d="M86.63,98.61a3.55,3.55,0,0,1-3.55,3.56l-27.88.09a3.55,3.55,0,0,1-3.55-3.56v-68a3.56,3.56,0,0,1,3.55-3.56l27.88-.09a3.56,3.56,0,0,1,3.55,3.56Z"/>
+      </g>
+      <line id="_Path_5" data-name="&lt;Path&gt;" class="cls-1" x1="89.04" y1="89.48" x2="103.56" y2="93.18"/>
+      <line id="_Path_6" data-name="&lt;Path&gt;" class="cls-1" x1="89.3" y1="95.16" x2="96.69" y2="99.25"/>
+      <circle id="_Path_7" data-name="&lt;Path&gt;" class="cls-1" cx="107.69" cy="92.72" r="4.22"/>
+      <circle id="_Path_8" data-name="&lt;Path&gt;" class="cls-1" cx="100.79" cy="100.78" r="4.22"/>
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <path id="_Path_9" data-name="&lt;Path&gt;" class="cls-3" d="M75.46,67a11.36,11.36,0,0,1-1,1.86c-.65,1-1.57,2.21-2.7,2.22s-1.26-.65-2.63-.64-1.65.66-2.65.65S64.49,70,63.84,69c-1.81-2.76-2-6-.88-7.72a4,4,0,0,1,3.23-1.93c1.19,0,2,.65,2.94.65s1.55-.66,2.94-.66a4,4,0,0,1,3,1.56A3.38,3.38,0,0,0,75.46,67Z"/>
+      </g>
+      <path id="_Path_10" data-name="&lt;Path&gt;" class="cls-3" d="M71.78,55a3.38,3.38,0,0,1-.66,2.46,3.88,3.88,0,0,1-2.2,1.28,3.83,3.83,0,0,1,.65-2.47A3.62,3.62,0,0,1,71.78,55Z"/>
+    </g>
+    <g>
+      <g id="_Group_3" data-name="&lt;Group&gt;">
+        <path id="_Compound_Path_2" data-name="&lt;Compound Path&gt;" class="cls-1" d="M44.52,24.21H16.16a4.89,4.89,0,0,0-4.82,4.95v68a4.88,4.88,0,0,0,4.82,5H44.52a4.88,4.88,0,0,0,4.82-5v-68A4.88,4.88,0,0,0,44.52,24.21Z"/>
+        <line id="_Path_11" data-name="&lt;Path&gt;" class="cls-1" x1="13.85" y1="34.28" x2="46.66" y2="34.16"/>
+        <line id="_Path_12" data-name="&lt;Path&gt;" class="cls-1" x1="13.81" y1="92.21" x2="46.65" y2="92.21"/>
+        <path id="_Path_13" data-name="&lt;Path&gt;" class="cls-2" d="M35.34,98.25a2,2,0,0,1-2,2H27.26a2,2,0,0,1-2-2h0a2,2,0,0,1,2-2h6.06a2,2,0,0,1,2,2Z"/>
+        <g id="_Group_4" data-name="&lt;Group&gt;">
+          <line id="_Path_14" data-name="&lt;Path&gt;" class="cls-2" x1="27.23" y1="28.28" x2="34.4" y2="28.28"/>
+          <circle id="_Path_15" data-name="&lt;Path&gt;" class="cls-2" cx="25.24" cy="28.18" r="0.2"/>
+          <circle id="_Path_16" data-name="&lt;Path&gt;" class="cls-2" cx="23.24" cy="28.18" r="0.2"/>
+          <circle id="_Path_17" data-name="&lt;Path&gt;" class="cls-2" cx="20.27" cy="28.18" r="0.2"/>
+          <circle id="_Path_18" data-name="&lt;Path&gt;" class="cls-2" cx="40.31" cy="28.24" r="0.43"/>
+        </g>
+      </g>
+      <path id="_Path_19" data-name="&lt;Path&gt;" class="cls-1" d="M38.12,66.65a1.16,1.16,0,0,0,1.16-1.16v-6.2a1.16,1.16,0,0,0-1.16-1.16"/>
+      <path id="_Compound_Path_3" data-name="&lt;Compound Path&gt;" class="cls-1" d="M33.13,52.86l-.24-.11a7.11,7.11,0,0,0-2.58-.44,7,7,0,0,0-2.6.43l-.24.1a5.24,5.24,0,0,0-3,4.41H36.12A5.29,5.29,0,0,0,33.13,52.86Z"/>
+      <path id="_Path_20" data-name="&lt;Path&gt;" class="cls-1" d="M24.42,58.66v8.8a.85.85,0,0,0,.77.75l2.2,0v3.55a1,1,0,0,0,1,1,.93.93,0,0,0,1-.93V68.18h2V71.7a.93.93,0,0,0,1.06,1,.9.9,0,0,0,.94-1v-3.5h2.14a.81.81,0,0,0,.87-.84l-.05-8.69"/>
+      <line id="_Path_21" data-name="&lt;Path&gt;" class="cls-2" x1="27.58" y1="52.79" x2="26.55" y2="51.32"/>
+      <line id="_Path_22" data-name="&lt;Path&gt;" class="cls-2" x1="33.02" y1="52.8" x2="34.06" y2="51.31"/>
+      <path id="_Path_23" data-name="&lt;Path&gt;" class="cls-4" d="M27.7,56a.44.44,0,1,1,0-.87.44.44,0,0,1,0,.87Z"/>
+      <path id="_Path_24" data-name="&lt;Path&gt;" class="cls-4" d="M33.06,56a.44.44,0,0,1-.43-.44.43.43,0,0,1,.43-.43.44.44,0,0,1,.44.43A.44.44,0,0,1,33.06,56Z"/>
+      <path id="_Path_25" data-name="&lt;Path&gt;" class="cls-1" d="M22.49,66.71a1.16,1.16,0,0,1-1.16-1.16v-6.2a1.16,1.16,0,0,1,1.16-1.16"/>
+    </g>
+  </g>
+</svg>
