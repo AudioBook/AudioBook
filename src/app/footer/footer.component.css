@@ -1,7 +1,7 @@
 footer {
     margin-top: 50px;
     background-color: whitesmoke;
-    width:100%;
+    clear: both;
     }
     .row {
         margin-left:50px;
@@ -27,10 +27,10 @@ footer {
     hr {
         height: 1px;
         border-top: 1px solid darkgray;
-        margin-left:120px;
-        margin-right: 120px;
+        /* margin-left:120px;
+        margin-right: 120px;*/
         margin-top:20px;
-        padding: 0;
+        padding: 0; 
     }
      ul li{
         display: inline-block;
