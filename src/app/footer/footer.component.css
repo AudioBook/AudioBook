@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 footer {
     margin-top: 50px;
     background-color: whitesmoke;
@@ -74,3 +75,34 @@ footer {
         float: left;
 >>>>>>> origin/feature1
     }
+=======
+
+.policy-footer-divider
+{
+    height: 44px;
+    margin-bottom: -18px;
+    background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    z-index: 0;
+    zoom: 1;
+}
+.policy-footer-section
+{
+
+}
+.policy-footer-links
+{
+    width:75%;
+    margin:0px auto;
+    text-align: center;
+}
+.link-gap
+{
+    display: inline-block;
+    width: 20px;
+}
+.license-text
+{
+    text-align: center;
+    margin:10px;
+}
+>>>>>>> 8556a980ee9e39538a3d806c99bdcfdeca7f8910
