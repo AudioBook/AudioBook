@@ -1,39 +1,27 @@
-footer {
-    margin-top: 50px;
-    background-color: whitesmoke;
-    width:100%;
-    }
-    .row {
-        margin-left:50px;
-        
-    }
-    .column {
-        float: left;
-        width:25%;
-        padding-left:50px;
-        margin-top:20px;
-    }
-    a {
-        color: black;
-    }
-    h6 {
-        font-size: 13px;
-    }
-    hr {
-        display: block;
-        height: 1px;
-        border: 0;
-        border-top: 1px solid #ccc;
-        margin-left:120px;
-        margin-right: 120px;
-        padding: 0;
-    }
-    #s2 {
-        margin-left:100px;
-    }
-    ​
-     ul li{
-        display: inline;
-        margin:5px;
-        float: left;
-    }
+.policy-footer-divider
+{
+   height: 44px;
+   margin-bottom: -18px;
+   background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+   z-index: 0;
+   zoom: 1;
+}
+.policy-footer-section
+{
+}
+.policy-footer-links
+{
+   width:75%;
+   margin:0px auto;
+   text-align: center;
+}
+.link-gap
+{
+   display: inline-block;
+   width: 20px;
+}
+.license-text
+{
+   text-align: center;
+   margin:10px;
+}
