@@ -64,10 +64,6 @@
   .usecaseImage
   {
     position: relative;
-    /*left: 100%;
-    margin-left: -200%;*/
-
-    width:100%;
-    overflow: hidden;
-    object-fit: cover;
+    left: 100%;
+    margin-left: -115.8%;
   }
