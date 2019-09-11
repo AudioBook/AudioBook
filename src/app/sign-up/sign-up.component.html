@@ -1,16 +1,32 @@
-<div class="card">
-    <h4 style="padding-top:20px;font-weight:bold">Login Page</h4>
-<form action="#" class="base-form" id="form-id">
-        <div class="bloc">
-            <label> First Name</label>
-            <input type="text" style="margin-top:30px;">
+<div class='outer-div'>
+    <div class='sign-in-whole'>
+        <img src='https://images-na.ssl-images-amazon.com/images/G/01/Audible/image/authPortal/audible_logo_uk._CB508070658_.svg'>
+        <div class='sign-in-container'>
+            <h3 class='subHeading'>Sign in with your Amazon account</h3>
+            <div class=credentials>
+                <form class='form'>
+                    <div class='input-container'>
+                        <label class='input-label'>Email or mobile phone number</label>
+                        <input type='text' class='input-box'>
+                    </div>
+                    <div class='input-container'>
+                        <div class='password-heading-row'>
+                            <label class='input-label'>Password</label>
+                            <a class='forgot-password'>Forgot Password</a>
+                        </div>
+                        <input type='text' class='input-box'>
+                    </div>
+                    <button type='button' class='sign-in-btn'>Sign In</button>
+                </form>
+                <div class='divider'>
+                    <span class='divider-text'>
+                      New to Amazon? <!--Padding is optional-->
+                    </span>
+                  </div>
+                <div class='createAccount'>
+                    <button class='create-account-btn'>Create your Amazon account</button>
+                </div>
+            </div>
         </div>
-        <div  class="bloc">
-            <label> Password </label>
-            <input type="text">
-        </div>
-        <div class="bloc">
-            <button type="submit">LogIn</button>
-        </div>
-    </form>
+    </div>
 </div>
