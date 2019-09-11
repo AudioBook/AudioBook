@@ -21,6 +21,7 @@ import { PolicyFooterComponent } from './policy-footer/policy-footer.component';
 import { HomeFooterComponent } from './home-footer/home-footer.component';
 import { FreeTrailButtonComponent } from './free-trail-button/free-trail-button.component';
 import { AuthenticationModule } from './authentication/authentication.module';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { AuthenticationModule } from './authentication/authentication.module';
     BookDetailsComponent,
     PolicyFooterComponent,
     HomeFooterComponent,
-    FreeTrailButtonComponent
+    FreeTrailButtonComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +49,6 @@ import { AuthenticationModule } from './authentication/authentication.module';
     AuthenticationModule
   ],
   providers: [AudioService],
-  bootstrap: [AppComponent],
-  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
