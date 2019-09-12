@@ -6,15 +6,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AudioService } from './audio.service';
-import { PolicyFooterComponent } from './policy-footer/policy-footer.component';
 import { AllModule } from './all/all.module';
 import { AuthenticationModule } from './authentication/authentication.module';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    PolicyFooterComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
