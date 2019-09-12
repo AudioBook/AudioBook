@@ -15,6 +15,7 @@ import { FooterComponent } from '../footer/footer.component';
 import { FreeTrailButtonComponent } from '../free-trail-button/free-trail-button.component';
 import { ButtonComponent } from '../button/button.component';
 import { RatingModule } from 'ng-starrating';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -28,7 +29,8 @@ import { RatingModule } from 'ng-starrating';
     FreeTrailButtonComponent,ButtonComponent],
   imports: [
     CommonModule,
-    RatingModule
+    RatingModule,
+    RouterModule
   ],
   exports: [HomeComponent,HeaderComponent,
     WhatIsAudibleComponent,ShowCaseBooksComponent,
