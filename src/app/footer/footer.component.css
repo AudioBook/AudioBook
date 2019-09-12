@@ -1,27 +1,46 @@
-.policy-footer-divider
-{
-   height: 44px;
-   margin-bottom: -18px;
-   background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
-   z-index: 0;
-   zoom: 1;
+.policy-footer-divider {
+  height: 44px;
+  margin-bottom: -18px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.03) 3px, transparent);
+  z-index: 0;
+  zoom: 1;
 }
-.policy-footer-section
-{
+.policy-footer-section {
 }
-.policy-footer-links
-{
-   width:75%;
-   margin:0px auto;
-   text-align: center;
+.policy-footer-links {
+  width: 75%;
+  margin: 0px auto;
+  text-align: center;
 }
-.link-gap
-{
-   display: inline-block;
-   width: 20px;
+.link-gap {
+  display: inline-block;
+  width: 20px;
 }
-.license-text
-{
-   text-align: center;
-   margin:10px;
+.license-text {
+  text-align: center;
+  margin: 10px;
+}
+/* new styles */
+footer {
+  background-color: whitesmoke;
+}
+.f-list {
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+}
+.f-list li {
+  display: inline-block;
+  list-style-type: none;
+  /* this does not changes color of anchor thereform see rule #anchor */
+  color: black;
+  padding: 0 10px;
+  border-right: solid 1px #777272;
+}
+.f-list li:last-child {
+  border-right: solid 1px transparent;
+}
+/* rule : #anchor */
+.f-list li a {
+  color: black;
 }
