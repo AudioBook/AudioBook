@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { AudioService } from './audio.service';
 import { PolicyFooterComponent } from './policy-footer/policy-footer.component';
 import { AllModule } from './all/all.module';
+import { AuthenticationModule } from './authentication/authentication.module';
 import { SignUpComponent } from './authentication/sign-up/sign-up.component';
 
 @NgModule({
