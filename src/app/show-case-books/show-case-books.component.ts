@@ -12,30 +12,19 @@ export class ShowCaseBooksComponent implements OnInit {
   public allBooks;
   public displayedBooks;
 // alternate variables end
-  public books: Book[];
   constructor(
     public _service: AudioService,
     private bookData: BookDataService) { }
 
 
   ngOnInit() {
-    console.log(this._service.getIndianBooks());
-    this.books = this._service.getIndianBooks();
     this.setUpBooks();
   }
 
-  public indianBooks(): void {
-    this.books = this._service.getIndianBooks()
-  }
-  public internationalBooks(): void {
-    this.books = this._service.getInternationalBooks()
-  }
-  public greatFirstListens(): void {
-    this.books = this._service.getGreatFirstListens();
-  }
   // 2nd way
   setUpBooks() {
-    this.bookData.getAllBooks()
+    let books=this.bookData
+    books.getAllBooks()
       .subscribe(data => {
         this.allBooks = data;
         this.switchBooks('indian');
