@@ -8,9 +8,9 @@ import { AuthService } from 'src/app/services/auth.service';
 })
 export class UserProfileComponent implements OnInit {
 
-  public userName:string;
+  public displayName:string;
   constructor(public auth:AuthService) { 
-    this.userName=this.auth.userId;
+  this.displayName=this.auth.displayName;
   }
 
   ngOnInit() {

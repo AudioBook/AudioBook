@@ -3,6 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
+import {AngularFireModule} from '@angular/fire'
+import {AngularFireDatabaseModule} from '@angular/fire/database'
+import {environment} from '../environments/environment'
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AudioService } from './audio.service';
@@ -11,7 +15,8 @@ import { AuthenticationModule } from './authentication/authentication.module';
 import { RouterModule } from '@angular/router';
 import { AuthService } from './services/auth.service';
 import { AuthGuard } from './auth.guard';
-
+import {AngularFireAuthModule} from '@angular/fire/auth';
+import {AngularFirestore, AngularFirestoreModule} from '@angular/fire/firestore'
 @NgModule({
   declarations: [
     AppComponent
@@ -22,7 +27,11 @@ import { AuthGuard } from './auth.guard';
     HttpClientModule,
     AllModule,
     AuthenticationModule,
-    RouterModule
+    RouterModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireDatabaseModule,
+    AngularFireAuthModule,
+    AngularFirestoreModule
   ],
   providers: [AudioService,AuthService,AuthGuard],
   bootstrap: [AppComponent]
