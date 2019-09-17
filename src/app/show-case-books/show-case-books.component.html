@@ -1,31 +1,6 @@
 <div class="showCaseBooksContainer heading1">
     <h2><b>Try an Audible audiobook, on us</b></h2>
     <h3>Here are some of our favourites to get you started. Listen to a sample by clicking on a play button.</h3>
-    <div class='sellers-tab'>
-        <ul class='list-inline'>
-            <li>
-                <a (click)='indianBooks()'>Indian Best Sellers</a>
-            </li>
-            <li>
-                <a (click)='internationalBooks()'>
-                    International Best Sellers
-                </a>
-            </li>
-            <li>
-                <a (click)='greatFirstListens()'>
-                    Great First Listens
-                </a>
-            </li>
-        </ul>
-        <div class='booksDisplay'>
-            <app-book class='bookItem' *ngFor='let book of books' [book]='book'></app-book>
-        </div>
-    </div>
-</div>
-
-<div class="showCaseBooksContainer heading1">
-    <h2><b>TWO Try an Audible audiobook, on us</b></h2>
-    <h3>Here are some of our favourites to get you started. Listen to a sample by clicking on a play button.</h3>
     <div class='sellers-tab' *ngIf="displayedBooks">
         <ul class='list-inline'>
             <li>

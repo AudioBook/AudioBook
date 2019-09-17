@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { AudioService } from '../audio.service';
 
 @Component({
   selector: 'app-book-image',
@@ -7,9 +8,10 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class BookImageComponent implements OnInit {
   @Input() imageUrl:string;
-  constructor() { }
+  constructor(public audioService:AudioService) { }
 
   ngOnInit() {
   }
+
 
 }

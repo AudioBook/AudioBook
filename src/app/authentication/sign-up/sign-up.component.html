@@ -4,27 +4,27 @@
         <div class='sign-in-container'>
             <h3 class='subHeading'>Sign in with your Amazon account</h3>
             <div class=credentials>
-                <form class='form'>
+                <!--<form class='form'>-->
                     <div class='input-container'>
                         <label class='input-label'>Email or mobile phone number</label>
-                        <input type='text' class='input-box'>
+                        <input type='text' [(ngModel)]='userId' class='input-box'>
                     </div>
                     <div class='input-container'>
                         <div class='password-heading-row'>
                             <label class='input-label'>Password</label>
                             <a class='forgot-password'>Forgot Password</a>
                         </div>
-                        <input type='text' class='input-box'>
+                        <input type='password' [(ngModel)]='password' class='input-box'>
                     </div>
-                    <button type='button' class='sign-in-btn'>Sign In</button>
-                </form>
+                    <button routerLink='/userProfile' class='sign-in-btn' (click)='login()'>Sign In</button>
+                <!--</form>-->
                 <div class='divider'>
                     <span class='divider-text'>
                       New to Amazon? <!--Padding is optional-->
                     </span>
                   </div>
                 <div class='createAccount'>
-                    <button class='create-account-btn'>Create your Amazon account</button>
+                    <button class='create-account-btn' routerLink='/createAccount'>Create your Amazon account</button>
                 </div>
             </div>
         </div>
