@@ -6,8 +6,6 @@ import { HowToStartComponent } from '../how-to-start/how-to-start.component';
 import { WhatIsAudibleComponent } from '../what-is-audible/what-is-audible.component';
 import { ShowCaseBooksComponent } from '../show-case-books/show-case-books.component';
 import { BookComponent } from '../book/book.component';
-import { BookDetailsComponent } from '../book-details/book-details.component';
-import { BookImageComponent } from '../book-image/book-image.component';
 import { MembershipInfoComponent } from '../membership-info/membership-info.component';
 import { ListeneingIsEasyComponent } from '../listeneing-is-easy/listeneing-is-easy.component';
 import { HomeFooterComponent } from '../home-footer/home-footer.component';
@@ -23,8 +21,7 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 @NgModule({
   declarations: [HomeComponent,HeaderComponent,
     WhatIsAudibleComponent,ShowCaseBooksComponent,
-    BookComponent,BookDetailsComponent,
-    BookImageComponent,MembershipInfoComponent,
+    BookComponent,MembershipInfoComponent,
     HowToStartComponent,ListeneingIsEasyComponent,
     HomeFooterComponent,FooterComponent,
     FreeTrailButtonComponent,ButtonComponent, UserProfileComponent],
@@ -35,8 +32,7 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
   ],
   exports: [HomeComponent,HeaderComponent,
     WhatIsAudibleComponent,ShowCaseBooksComponent,
-    BookComponent,BookDetailsComponent,
-    BookImageComponent,MembershipInfoComponent,
+    BookComponent,MembershipInfoComponent,
     HowToStartComponent,ListeneingIsEasyComponent,
     HomeFooterComponent,FooterComponent,
     FreeTrailButtonComponent,ButtonComponent]

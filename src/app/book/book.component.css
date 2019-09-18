@@ -1,0 +1,18 @@
+.bookImage
+{
+    display:inline;
+    width:150px;
+    height:150px;
+}
+.bookDetails
+{
+    display:inline;
+}
+.playSampleBtn
+{
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: 0px;
+    background: #ebebeb;
+}
