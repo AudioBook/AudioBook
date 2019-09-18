@@ -4,25 +4,25 @@
         <div class='sign-in-container'>
             <h3 class='subHeading'>Sign in with your Amazon account</h3>
             <div class=credentials>
-                <!--<form class='form'>-->
+                <form class='form' [formGroup]="createAccountForm">
                     <div class='input-container'>
                         <label class='input-label'>Name</label>
-                        <input type='text' name='name' class='input-box' [(ngModel)]='name'>
+                        <input type='text' name='name' class='input-box' formControlName="name" required>
                     </div>
                     <div class='input-container'>
                         <label class='input-label'>Email or mobile phone number</label>
-                        <input type='text' name='userId'class='input-box' [(ngModel)]='email'>
+                        <input type='text' name='email'class='input-box' formControlName='email' required>
                     </div>
                     <div class='input-container'>
                         <label class='input-label'>Password</label>
-                        <input type='text' name='password' class='input-box' [(ngModel)]='password'>
+                        <input type='text' name='password' class='input-box' formControlName='password' required>
                     </div>
                     <div class='input-container'>
                             <label class='input-label'>Confirm Password</label>
-                            <input type='text' name='confirmPassword' class='input-box' [(ngModel)]='c_password'>
+                            <input type='text' name='confirmPassword' class='input-box' formControlName='c_password' required>
                     </div>
-                    <button type='button' class='sign-in-btn' (click)='createAccount()'>Create Account</button>
-                <!--</form>-->
+                    <button type='button' class='sign-in-btn' (click)='createAccount()' [disabled]="!createAccountForm.valid">Create Account</button>
+                </form>
                 
             </div>
         </div>

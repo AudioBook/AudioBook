@@ -15,8 +15,9 @@ import { AuthenticationModule } from './authentication/authentication.module';
 import { RouterModule } from '@angular/router';
 import { AuthService } from './services/auth.service';
 import { AuthGuard } from './auth.guard';
+
 import {AngularFireAuthModule} from '@angular/fire/auth';
-import {AngularFirestore, AngularFirestoreModule} from '@angular/fire/firestore'
+import {AngularFirestoreModule} from '@angular/fire/firestore';
 @NgModule({
   declarations: [
     AppComponent
