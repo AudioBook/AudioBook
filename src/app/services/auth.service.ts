@@ -18,11 +18,13 @@ export class AuthService {
   constructor(public http:HttpClient,
      public router:Router,
       private firebaseAuth:AngularFireAuth,
-      private firebaseDb:AngularFirestore) { 
-        this.userId=localStorage.getItem('userId')
-        this.displayName=localStorage.getItem('displayName')
-        if(localStorage.getItem('userId'))
-          this.loggedIn=true
+      private firebaseDb:AngularFirestore)
+       { 
+         if(localStorage.getItem('userId')){
+           this.loggedIn=true
+           this.userId=localStorage.getItem('userId')
+           this.displayName=localStorage.getItem('displayName')
+         }
         this.firebaseAuth.user.subscribe(user=>{
           if(user)
           {

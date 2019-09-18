@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from 'src/app/services/auth.service';
+import { FormBuilder, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-create-account',
@@ -11,16 +12,26 @@ export class CreateAccountComponent implements OnInit {
    email: any;
   password: any;
   c_password: any;
-  constructor(public authService:AuthService) { }
 
+  constructor(public authService:AuthService,public formBuilder:FormBuilder) { }
+  public createAccountForm=this.formBuilder.group({
+    name:['',[Validators.required,Validators.minLength(3)]],
+    email:['',[Validators.required,Validators.email]],
+    password:['',[Validators.required,Validators.minLength(5)]],
+    c_password:['',[Validators.required,Validators.minLength(5)]]
+  })
   ngOnInit() {
   }
   createAccount()
   {
-    console.log('giving data to service: ',this.name,this.email,this.password)
-    if(this.password===this.c_password)
+    let name=this.createAccountForm.controls['name'].value
+    let email=this.createAccountForm.controls['email'].value
+    let password=this.createAccountForm.controls['password'].value
+    let c_password=this.createAccountForm.controls['c_password'].value
+    console.log('giving data to service: ',name,email,password)
+    if(password===c_password)
     {
-      this.authService.createUser(this.name,this.email,this.password);
+      this.authService.createUser(name,email,password);
     }
   }
 }

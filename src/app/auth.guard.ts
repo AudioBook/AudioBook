@@ -13,13 +13,11 @@ export class AuthGuard implements CanActivate, CanActivateChild, CanLoad {
     next: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
     console.log('4 in auth guard')
-    if(localStorage.getItem('userId'))
+    if(localStorage.getItem('userId'))//logged in
     {
-      console.log(5)
       return true;
     }
     else{
-      console.log(6)
       this.router.navigateByUrl('/')
       return false
     }

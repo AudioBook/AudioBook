@@ -1,2 +1,10 @@
-<app-book-image [imageUrl]='book.imageUrl'></app-book-image>
-<app-book-details [book]='book'></app-book-details>
+<img [src]='book.imageUrl' class='bookImage'>
+<button class='playSampleBtn'(click)="play()">{{btnTxt}} Sample</button>
+<audio hidden></audio>
+<div class='bookDetails'>
+        <title>{{book.name}}</title>
+        <p>Narrated By: 
+        <br><a>{{book.author}}</a>
+        <star-rating value={{book.rating}} checkedcolor='#fca93a' uncheckedcolor='grey' size="24px"    readonly="true"></star-rating>
+        </p>
+</div>
