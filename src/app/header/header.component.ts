@@ -16,7 +16,6 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log('initialized')
     if(this.auth.loggedIn)
     {
       this.signBtnTxt='Sign Out'
