@@ -4,6 +4,39 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.welcomeUserTxt
+{
+  color:white
+}
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.userDropdown {
+  position: relative;
+  display: inline-block;
+  float:right;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  /*min-width:160px;*/
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  z-index: 1;
+}
+.dropdowm-content-item
+{
+  display: block;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.userDropdown:hover .dropdown-content {display: block;}
 /* this shouldn't overflow 
 .nav {
   overflow: hidden;

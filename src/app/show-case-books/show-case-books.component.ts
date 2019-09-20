@@ -44,5 +44,4 @@ export class ShowCaseBooksComponent implements OnInit {
         break;
     }
   }
-
 }

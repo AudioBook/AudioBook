@@ -77,7 +77,7 @@
             "author": "Robin Sharma",
             "rating": 4.6,
             "imageUrl": "https://m.media-amazon.com/images/I/51AAweqxA1L._SL150_.jpg",
-            "sampleAudioUrl":"https://raw.githubusercontent.com/rpsthecoder/mediasourceapi/master/sample.mp3"
+            "sampleAudioUrl":"D:\\AudioBook\\src\\assets\\mp3"
         },
         {
             "name": "A Suitable Boy",

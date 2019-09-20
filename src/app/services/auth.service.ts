@@ -40,7 +40,6 @@ export class AuthService {
       {
         if(userCredential){
           this.loggedIn=true
-          this.router.navigateByUrl('/userProfile')
           this.user=userCredential.user
           this.userId=userCredential.user.uid
           this.displayName=userCredential.user.displayName
