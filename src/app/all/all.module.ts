@@ -17,6 +17,7 @@ import { RouterModule } from '@angular/router';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { AudioPlayerComponent } from './audio-player/audio-player.component';
 import { YourLibraryComponent } from './your-library/your-library.component';
+import { CreateAccountComponent } from '../authentication/create-account/create-account.component';
 
 
 
