@@ -16,6 +16,7 @@ import { RatingModule } from 'ng-starrating';
 import { RouterModule } from '@angular/router';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { AudioPlayerComponent } from './audio-player/audio-player.component';
+import { YourLibraryComponent } from './your-library/your-library.component';
 
 
 
@@ -25,7 +26,7 @@ import { AudioPlayerComponent } from './audio-player/audio-player.component';
     BookComponent,MembershipInfoComponent,
     HowToStartComponent,ListeneingIsEasyComponent,
     HomeFooterComponent,FooterComponent,
-    FreeTrailButtonComponent,ButtonComponent, UserProfileComponent, AudioPlayerComponent],
+    FreeTrailButtonComponent,ButtonComponent, UserProfileComponent, AudioPlayerComponent, YourLibraryComponent],
   imports: [
     CommonModule,
     RatingModule,
