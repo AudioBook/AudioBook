@@ -18,9 +18,11 @@ import { AuthGuard } from './auth.guard';
 
 import {AngularFireAuthModule} from '@angular/fire/auth';
 import {AngularFirestoreModule} from '@angular/fire/firestore';
+import { DownloadAppComponent } from './download-app/download-app.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DownloadAppComponent
   ],
   imports: [
     BrowserModule,

@@ -5,6 +5,7 @@ import { SignUpComponent } from './authentication/sign-up/sign-up.component';
 import { CreateAccountComponent } from './authentication/create-account/create-account.component';
 import { UserProfileComponent } from './all/user-profile/user-profile.component';
 import { AuthGuard } from './auth.guard';
+import { DownloadAppComponent } from './download-app/download-app.component';
 
 
 const routes: Routes = [
@@ -19,6 +20,10 @@ const routes: Routes = [
   {
     path:'createAccount',
     component:CreateAccountComponent
+  },
+  {
+    path:'app',
+    component:DownloadAppComponent
   },
   {
     path:'userProfile',
