@@ -23,6 +23,7 @@
 /* new styles */
 footer {
   background-color: whitesmoke;
+  display: block;
 }
 .f-list {
   text-align: center;

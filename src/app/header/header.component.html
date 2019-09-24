@@ -1,16 +1,16 @@
 <div class="bgimg">
   <div class="nav">
     <div *ngIf="auth.loggedIn" class='userDropdown' ><!--If user is already logged in, display popup on hover-->
-      <button class='btn btn-link dropbtn'>Hi {{auth.user.displayName}}</button>
+      <button class='btn btn-link dropbtn'>Hi {{auth.displayName}}</button>
       <div class="dropdown-content">
         <ul type='none'>
         <li><button class='btn btn-link dropdowm-content-item' routerLink='/userProfile'>User Profile</button></li>
-        <li><button class='btn btn-link dropdowm-content-item'>My Library</button></li>
-        <li><button class='btn btn-link dropdowm-content-item' (click)='signBtnOnClick()'>Sign Out</button></li>
+        <li><button class='btn btn-link dropdowm-content-item' routerLink='/yourLibrary'>My Library</button></li>
+        <li><button class='btn btn-link dropdowm-content-item' routerLink='' (click)='signOut()'>Sign Out</button></li>
       </ul>
       </div>
     </div>
-    <a *ngIf="!auth.loggedIn" routerLink={{signRouterLink}} (click)='signBtnOnClick()'>{{signBtnTxt}}</a>
+    <a *ngIf="!auth.loggedIn" routerLink={{signRouterLink}}>{{signBtnTxt}}</a>
     <a>|</a>
     <a routerLink='/contactus'>Contact Us</a>
   </div> 

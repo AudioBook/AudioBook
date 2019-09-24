@@ -10,7 +10,6 @@ export class HeaderComponent implements OnInit {
 
   public signBtnTxt:string
   public signRouterLink:string
-  public signedIn:boolean
 
   constructor(public auth:AuthService) { 
   }
@@ -23,18 +22,15 @@ export class HeaderComponent implements OnInit {
 
     }
     else{
-      this.auth.logout()
-      console.log('logged out')
       this.signBtnTxt='Sign In'
       this.signRouterLink='/signUp'
     }
   }
-  signBtnOnClick()
+  signOut()
   {
     if(this.auth.loggedIn)
     {
       this.auth.logout();
-      console.log('logged out')
       this.signBtnTxt='Sign In'
       this.signRouterLink='/signUp'
     }

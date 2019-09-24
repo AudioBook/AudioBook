@@ -6,6 +6,7 @@ import { CreateAccountComponent } from './authentication/create-account/create-a
 import { UserProfileComponent } from './all/user-profile/user-profile.component';
 import { AuthGuard } from './auth.guard';
 import { DownloadAppComponent } from './download-app/download-app.component';
+import { YourLibraryComponent } from './all/your-library/your-library.component';
 
 
 const routes: Routes = [
@@ -14,7 +15,7 @@ const routes: Routes = [
     component:HomeComponent
   },
   {
-    path:'sign-up',
+    path:'signUp',
     component:SignUpComponent
   },
   {
@@ -28,6 +29,11 @@ const routes: Routes = [
   {
     path:'userProfile',
     component:UserProfileComponent,
+    canActivate:[AuthGuard]
+  },
+  {
+    path:'yourLibrary',
+    component:YourLibraryComponent,
     canActivate:[AuthGuard]
   }
 ];

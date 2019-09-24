@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { BookDataService } from '../services/book-data.service';
+import { AuthService } from '../services/auth.service';
 
 @Component({
   selector: 'app-book',
@@ -10,7 +11,9 @@ export class BookComponent implements OnInit {
   @Input() book:Book;
   playing:boolean=false
   btnTxt:string='Play'
-  constructor(public bookData:BookDataService) {}
+  constructor(public bookData:BookDataService,
+    public authService:AuthService
+    ) {}
 
   ngOnInit() {
   }
@@ -29,6 +32,11 @@ export class BookComponent implements OnInit {
       this.playing=true
     }
    
+  }
+
+  addToLibrary()
+  {
+    this.bookData.addBookToUserLibrary(this.book.id);
   }
 
 }

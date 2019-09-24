@@ -1,5 +1,6 @@
 <img [src]='book.imageUrl' class='bookImage'>
 <button class='playSampleBtn'(click)="play()">{{btnTxt}} Sample</button>
+<button *ngIf="authService.loggedIn&&book.id!=undefined" class="addBtn"(click)="addToLibrary()">Add To Library</button>
 <div class='bookDetails'>
         <title>{{book.name}}</title>
         <p>Narrated By: 

@@ -1,1 +1,18 @@
-<p>your-library works!</p>
+<app-header></app-header>
+<h2 class='heading'>Library</h2>
+<div class='library' *ngIf="displayBooks">
+    <ul class='list-inline'>
+        <li>
+            <a (click)='switchBooks("allBooks")'>All Books</a>
+        </li>
+        <li>
+            <a (click)='switchBooks("userBooks")'>
+                Your Books
+            </a>
+        </li>
+    </ul>
+    <div class='booksDisplay'>
+        <app-book class='bookItem' *ngFor='let book of displayBooks' [book]='book'></app-book>
+    </div>
+</div>
+<app-audio-player></app-audio-player>

@@ -29,7 +29,6 @@ export class AuthService {
           if(user)
           {
             this.user=user
-            console.log(user)
           }
         }
         )
