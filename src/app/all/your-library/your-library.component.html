@@ -13,6 +13,7 @@
     </ul>
     <div class='booksDisplay'>
         <app-book class='bookItem' *ngFor='let book of displayBooks' [book]='book'></app-book>
+        <h3 *ngIf="displayBooks.length==0">Your Library Is Empty.</h3>
     </div>
 </div>
 <app-audio-player></app-audio-player>
