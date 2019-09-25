@@ -1,0 +1,26 @@
+
+.bookItem
+{
+    display: inline-block;
+    /*float:left; /*height becomes 0 and the footer comes up*/
+    margin: 38px;
+}
+
+.bookDetails
+{
+    display:inline;
+}
+
+.list-inline{
+    margin:2px auto;
+    width: fit-content;
+}
+.list-inline li{
+    display:inline;
+}
+
+.library
+{
+    margin: 2px auto;
+    width:100%;
+}

@@ -47,7 +47,6 @@ export class AudioPlayerComponent implements OnInit {
     }
     var audio=document.querySelector('audio')
     var audioUrl=this.audioUrl;
-    console.log('audio url:',audioUrl)
     var mediaSource=new MediaSource()
     audio.src=URL.createObjectURL(mediaSource)
     mediaSource.addEventListener('sourceopen', function() {
