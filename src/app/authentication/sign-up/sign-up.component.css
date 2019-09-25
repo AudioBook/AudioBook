@@ -72,3 +72,12 @@
     position: absolute;
     padding: 0px 8px;
 }
+
+.input-invalid-msg
+{
+    padding: 4px 15px;
+    margin: 8px auto;
+    border-radius: 4px;
+    width: fit-content;
+    text-align: center;
+}
